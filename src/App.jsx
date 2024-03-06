@@ -4,9 +4,7 @@ import Home from "./pages/Home"
 import Profile from "./pages/Profile"
 import About from "./pages/About"
 import SignIn from "./pages/SignIn"
-  // prettier-ignore
-
- 
+import Contact from "./pages/Contact"
  
  function App() {
    return (
@@ -15,9 +13,8 @@ import SignIn from "./pages/SignIn"
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About/>} />
         <Route path="/Profile" element={<Profile/>} />
-        <Route path="/SignIn" element={<SignIn/>} />
-      
-         
+        <Route path="/SignIn" element={<SignIn/>} />  
+        <Route path="/Contact" element={<Contact/>} />  
       </Routes>
      </BrowserRouter>
    )

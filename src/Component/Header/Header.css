@@ -1,0 +1,25 @@
+.header_section{
+	background: var(--black);
+	color: white;
+}
+
+.header_container{
+		display: flex;
+	justify-content: space-around;
+	padding: 1rem 0;
+	color: var(--secondary);
+}
+
+ 
+.header_menu{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+	gap: 2rem;
+}
+ 
+.header_menu >.link:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
